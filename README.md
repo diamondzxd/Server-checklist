@@ -1,5 +1,9 @@
-# Sysadmin-Cheatsheat
-Some commands to use in no particular order after getting access to a dedicated server to benchmark/stress test before fit for use.
+# Server-Checklist
+Some commands to use in no particular order after getting access to a dedicated server to benchmark/stress test before marking it fit for my use.
+
+## Dedicated Server specific commands
+The following commands will make much more sense and give appropriate results when ran on a dedicated server. They are to essentially check or benchmark some specific hardware information in a dedicated server. 
+Those who are using VPS or Cloud environments need not do this. You can skip to the VPS section.
 
 ```lspci```  
   
@@ -27,3 +31,6 @@ some HP RAID Controllers```
 ```speedtest -s 24215```  
   
 ```wget http://speedtest-lon1.digitalocean.com/5gb.test -O /dev/null```  
+
+## Dedi + VPS commands
+The following commands can be ran on a VPS as well as a dedicated server. They are for checking general compute performance.
