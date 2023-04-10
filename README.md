@@ -17,7 +17,7 @@ Those who are using VPS or Cloud environments need not do this. You can skip to 
 accessing SAS disks behind Dell RAID controller  
   
 ```smartctl -a /dev/sg0```  
-some HP RAID Controllers```  
+some HP RAID Controllers
   
 ```screen -dmS stress stress-ng --cpu 10 --vm 1 --vm-bytes 32G```  
   
