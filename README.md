@@ -34,3 +34,12 @@ some HP RAID Controllers
 
 ## Dedi + VPS commands
 The following commands can be ran on a VPS as well as a dedicated server. They are for checking general compute performance.
+
+## Misc Commands
+
+### How to upgrade Debian 11 to 12
+```
+sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
+apt-get update
+apt-get upgrade -y
+```
